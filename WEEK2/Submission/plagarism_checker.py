@@ -127,7 +127,7 @@ class AStarPlagiarismDetector:
             print(f"No sentence pairs met the {self.threshold:.0%} similarity threshold for plagiarism.")
 
     def detect(self, doc1_text, doc2_text):
-        print(f"Document 1: \"{doc1_text}\"")
+        print(f"Document 1: \"{doc1_text}\"\n")
         print(f"Document 2: \"{doc2_text}\"\n")
         
         doc1_sents = self._preprocess(doc1_text)
